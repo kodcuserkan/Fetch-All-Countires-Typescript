@@ -11,7 +11,7 @@ const SingleCountry:FunctionComponent<ICountry> = props => {
     return (
         <div className="single-country">
             <p>
-                {`${name} - ${capital}`}
+                {`${name} - ${capital || "N/A"}`}
             </p>
         </div>
     )
